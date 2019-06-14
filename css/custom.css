@@ -2,11 +2,142 @@ a {
     color: #569B59;
 }
 
+a:hover {
+    color: #346e34;
+}
+
 .btn-primary {
     background-color:#569B59;
     border-color:#569B59;
 }
 
+.btn-primary.focus, .btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(72, 132, 75, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(72, 132, 75, 0.5);
+}
+
+.btn-primary:hover {
+    background-color: #3D8240;
+    border-color: #307533;
+}
+
+.btn-primary:disabled {
+    background-color:#569B59;
+    border-color:#569B59;
+}
+
+.btn-outline-primary {
+    color:#569B59;
+    border-color:#569B59;
+}
+
+.btn-outline-primary:hover {
+    background-color:#569B59;
+    border-color:#569B59;
+}
+
+.btn-outline-primary.disabled,.btn-outline-primary:disabled {
+    color:#569B59;
+}
+
+.btn-outline-primary.dropdown-toggle {
+    background-color:#569B59;
+    border-color:#569B59;
+}
+
+.btn-link {
+    color:#569B59;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #307533;
+    border-color: #286D2B;
+}
+
+.dropdown-item.active,.dropdown-item:active {
+    background-color:#569B59;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color:#569B59;
+    background-color:#569B59;
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+    border-color:#569B59;
+    background-color:#569B59;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background-color:#569B59;
+}
+
+.custom-range::-moz-range-thumb {
+    background-color:#569B59;
+}
+
+.custom-range::-ms-thumb {
+    background-color:#569B59;
+}
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link {
+    background-color:#569B59;
+}
+
+.page-link {
+    color:#569B59;
+}
+
+.page-item.active .page-link {
+    background-color:#569B59;
+    border-color:#569B59;
+}
+
+.badge-primary {
+    background-color:#569B59;
+}
+
+.progress-bar {
+    background-color:#569B59;
+}
+
+.list-group-item.active {
+    background-color:#569B59;
+    border-color:#569B59;
+}
+
+.bg-primary {
+    background-color:#569B59!important
+}
+
+.border-primary {
+    border-color:#569B59!important
+}
+
+.text-primary {
+    color:#569B59!important
+}
+
 hr.divider {
     border-color: #569B59;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:active,#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color:#569B59;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color:#569B59!important
+}
+
+#mainNav.navbar-scrolled .navbar-brand:hover {
+    color:#569B59;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color:#569B59;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    background: rgba(86, 155, 89, 0.9);
 }
